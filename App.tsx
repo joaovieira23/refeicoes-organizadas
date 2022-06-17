@@ -8,10 +8,8 @@ export default function App() {
     'Rubik-LightItalic': require('./src/assets/fonts/Rubik-LightItalic.ttf'),
     'Rubik-BoldItalic': require('./src/assets/fonts/Rubik-BoldItalic.ttf'),
     'Rubik-Regular': require('./src/assets/fonts/Rubik-Regular.ttf'),
-    'Galano-Grotesque-Light': require('./src/assets/fonts/Galano Grotesque Light.otf'),
     'Montserrat-Bold': require('./src/assets/fonts/Montserrat-Bold.ttf'),
-    'Montserrat-Medium': require('./src/assets/fonts/Montserrat-Medium.ttf'),
-    'Montserrat-Bold': require('./src/assets/fonts/Montserrat-Bold.ttf')
+    'Montserrat-Medium': require('./src/assets/fonts/Montserrat-Medium.ttf')
   });
 
   if (!loaded) {
@@ -22,12 +20,3 @@ export default function App() {
     <Welcome />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'orange',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
